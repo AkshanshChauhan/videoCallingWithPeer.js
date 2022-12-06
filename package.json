@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "start:dev": "npm run devStart",
-    "start": "peerjs --port 91"
+    "start": "start peerjs --port 91 && start nodemon server.js"
   },
   "keywords": [],
   "author": "",
